@@ -8,7 +8,7 @@ correlation_matrix<-cor(bulk_dataset[shared_genes,],sc_exprs[shared_genes,])
 #Stratified sampling and bootstrap sampling
 c1<-correlation_matrix[1:length(responder),]
 c2<-correlation_matrix[length(responder)+1:ncol(bulk_dataset),]
-set.seed(1)
+set.seed(88)
 s1index<-sample(1:nrow(c1),round(0.8*(nrow(c1))))
 s2index<-sample(1:nrow(c2),round(0.8*(nrow(c2))))
 s1xtrain<-c1[s1index,]
