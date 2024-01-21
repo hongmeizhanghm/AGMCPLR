@@ -1,4 +1,4 @@
-# Improving the prediction accuracy of melanoma immunotherapy response by integrating bulk and single-cell RNA sequencing data
+# AGMCPLR: adaptive group minimax concave penalty logistic regression for predicting immune checkpoint inhibitor response in melanoma
 The Seurat package is used for preprocessing scRNA-seq data and cell grouping.  
 Install Seurat using ```install.packages('Seurat')```.  
 The CellChat package is used for inferring cell-cell communication networks.  
